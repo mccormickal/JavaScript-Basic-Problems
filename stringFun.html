@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>String fun!</title>
+    </head>
+
+    <body>
+        <div>
+            <h1>String fun!</h1>
+
+            <script src="stringFun.js"></script>
+
+            <form id="form">
+                <label>Full Name:</label>
+                <br><input id="fullName" name="fullName" value="Thomas Jefferson">
+                <br><button type="button" onclick="reverseName()">Reverse Name</button>
+                <p id="reversedNames"></p>
+
+                <br><br>
+                <label>List of names:</label>
+                <br><input id="nameList" name="nameList" value="Lisa Alexander, Tony Pat, Ross Smith, Max Blair">
+                <br><button type="button" onclick="getInitialList()">Get Initials</button>
+                <p id="initialList"></p>
+
+                <br><br>
+                <label>Sentence:</label>
+                <br><input id="sentence" name="sentence" value="Love is patient, love is kind. Love does not delight in evil but rejoices with the truth.">
+                <br><button type="button" onclick="wordCount()">Get Word Count</button>
+                <p id="countOfWords"></p>
+
+                <br><br>
+                <label>Full Name:</label>
+                <br><input id="userFullName" name="userFullName" value="Tony Alexander">
+                <br><button type="button" onclick="createUsername()">Create Username</button>
+                <p id="createdUsername"></p>
+            </form>
+        </div>
+
+        <p id="output"></p>
+    </body>
+</html>
