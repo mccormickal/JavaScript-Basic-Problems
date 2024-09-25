@@ -1,4 +1,5 @@
 //Event listeners
+//Enter numbers button
 document.getElementById("tableButton").addEventListener("click", function(event) {
     event.preventDefault();
 });
@@ -12,7 +13,14 @@ function askNumbers() {
 
     //Loop to ask for numbers until a non-number is entered
     while(true) {
-        num = prompt("Enter a number: \n(Enter a letter to stop)");
+        num = prompt("Enter a number: \n\n(Enter a letter to stop)");
+
+        //Check if Cancel button is pressed
+        if (num === null) {
+            break;
+        }
+
+        //Check if the input is a number
         if (!isNaN(num)) {
             numsArray.push(parseInt(num));
         } else {

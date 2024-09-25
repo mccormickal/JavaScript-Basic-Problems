@@ -17,15 +17,28 @@ div {
     text-align: center;
 }
 
+#indexDiv {
+    width: 350px;
+}
+
 h1 {
     font-family: 'Arial', sans-serif;
     text-align: center;
     font-size: 24px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 ol {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
+    /*display: inline-block;*/
+    padding-left: 60px;
+    padding-bottom: 15px;
+}
+
+li {
+    text-align: left;
 }
 
 a {
@@ -56,6 +69,10 @@ button {
     
 }
 
+#backButton {
+    padding: 6px 12px;
+}
+
 button:hover {
     background-color: #ff94c2;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
@@ -65,14 +82,18 @@ p {
     font-size: 14px;
 }
 
+/* mathFun styles */
 #outputTable {
-    margin-top: 24px;
     border: 1px solid #80002A;
+    border-collapse: collapse;
     visibility: hidden;
+    margin: 24px auto;
+    width: auto;
 }
 
 #outputTable td, #outputTable th {
     border: 1px solid #80002A;
+    padding: 5px;
 }
 
 input {
