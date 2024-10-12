@@ -8,7 +8,7 @@ function countCharacters() {
     var inputText = document.getElementById("input-box").value;
     var remainingChars = 50 - inputText.length;
     var output = document.getElementById("output");
-    var charImages = document.getElementById("char-images");
+    var charImages = document.getElementById("charImages");
 
     if (remainingChars < 0) {
         document.getElementById("output").innerHTML = "Error";
@@ -28,7 +28,7 @@ function countCharacters() {
 
 // Set intial displau to "50"
 window.onload = function() {
-    var charImages = document.getElementById("char-images");
+    var charImages = document.getElementById("charImages");
     appendImage(numImages[5], charImages);
     appendImage(numImages[0], charImages);
 };

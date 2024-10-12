@@ -21,6 +21,18 @@ div {
     width: 350px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    position: relative;
+ }
+
+ .title h1{
+    text-align: center;
+}
+
 h1 {
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -29,7 +41,7 @@ h1 {
     padding-top: 10px;
 }
 
-ol {
+ ol {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     /*display: inline-block;*/
@@ -70,9 +82,10 @@ button {
 }
 
 #backButton {
-    padding: 0px 15px;
-    margin-right: 10px;
+    padding: 5px 10px;
+    margin-left: 10px;
     font-size: 14px;
+    z-index: 1;
 }
 
 #stringButton {
@@ -90,6 +103,10 @@ p {
 }
 
 /* mathFun styles */
+#tableButton {
+    margin-top: 40px;
+}
+
 #outputTable {
     border: 1px solid #80002A;
     border-collapse: collapse;
@@ -110,7 +127,7 @@ input {
 
 /* stringFun styles*/
 #form {
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .stringLabel {
@@ -118,4 +135,28 @@ input {
     text-align: left;
     margin-left: 45px;
     padding-bottom: 5px;
+}
+
+
+/* maximum50 styles */
+#max50Form {
+   margin-top: 100px;
+   padding-bottom: 20px;
+}
+
+#charCount {
+    margin-top: 20px;
+    padding-top: 50px;
+}
+
+
+/* maximum50PicView styles */
+#max50PicForm {
+    margin-top: 100px;
+    padding-bottom: 20px;
+ }
+
+ #charImages {
+    margin-top: 20px;
+    padding-top: 50px;
 }

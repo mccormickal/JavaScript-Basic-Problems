@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="../styles.css">
         <title>Maximum 50</title>
     </head>
 
     <body>
-        <h1>Maximum 50</h1>
-        <div id="input">
-            <p>You are only allowed to enter 50 characters in the input box.</p>
-            <input type="text", id="input-box", maxlength="50", oninput="countCharacters()">
+        <div>
+            <div class="header">
+                <button id="backButton">Back</button>
+                <div class="title"><h1>Maximum 50</h1></div>
+            </div>
+
+            <div id="max50Form">
+                <p>You are only allowed to enter 50 characters in the input box.</p>
+                <input type="text", id="inputBox", maxlength="50", oninput="countCharacters()">
+    
+                <p>Number of characters remaining:</p>
+                <span id="charCount">50</span>
+            </div>
         </div>
-
-        <p>Number of characters remaining:</p>
-        <div id="output">
-            <span id="char-count">50</span>
-        </div>
-
-        <button id="backButton">Back</button>
-
-        <script src="Maximum50.js"></script>
+        
+        <script src="../jsFiles/Maximum50.js"></script>
         <script src="../jsFiles/backButton.js"></script>
     </body>
 </html>
