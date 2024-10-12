@@ -70,7 +70,14 @@ button {
 }
 
 #backButton {
-    padding: 6px 12px;
+    padding: 0px 15px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#stringButton {
+    padding: 5px 10px;
+    font-size: 14px;
 }
 
 button:hover {
@@ -98,4 +105,17 @@ p {
 
 input {
     width: 400px;
+}
+
+
+/* stringFun styles*/
+#form {
+    margin-top: 100px;
+}
+
+.stringLabel {
+    display: block;
+    text-align: left;
+    margin-left: 45px;
+    padding-bottom: 5px;
 }
