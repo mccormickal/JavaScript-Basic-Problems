@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #f9f9f9;
 }
 
 div {
@@ -34,6 +34,7 @@ div {
 }
 
 h1 {
+    color: #2c3e50
     font-family: 'Arial', sans-serif;
     text-align: center;
     font-size: 24px;
@@ -54,12 +55,12 @@ li {
 }
 
 a {
-    color: #ff69b4;
+    color: #2c3e50;
     text-decoration: none;
 }
 
 a:hover {
-    color: #999;
+    color: #3498db;
 }
 
 label {
