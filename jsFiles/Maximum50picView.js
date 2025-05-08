@@ -1,7 +1,7 @@
 // Array of number images
 var numImages = [
-    "numbers/zero.jpg", "numbers/one.jpg", "numbers/two.jpg", "numbers/three.jpg", "numbers/four.jpg",
-    "numbers/five.jpg", "numbers/six.jpg", "numbers/seven.jpg", "numbers/eight.jpg", "numbers/nine.jpg"
+    "../numberImages/zero.jpg", "../numberImages/one.jpg", "../numberImages/two.jpg", "../numberImages/three.jpg", "../numberImages/four.jpg",
+    "../numberImages/five.jpg", "../numberImages/six.jpg", "../numberImages/seven.jpg", "../numberImages/eight.jpg", "../numberImages/nine.jpg"
 ];
 
 function countCharacters() {
