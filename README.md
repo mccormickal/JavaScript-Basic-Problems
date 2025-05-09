@@ -34,8 +34,8 @@ All pages share a clean, professional design using a common stylesheet (``` styl
 ## How to View
 You can view the project locally:
 ```
-git clone https://github.com/mccormickal/JavaScript_Basic_Problems.git
-cd JavaScript_Basic_Problems/htmlFiles
+git clone https://github.com/mccormickal/JavaScript-Basic-Problems.git
+cd JavaScript-Basic-Problems/htmlFiles
 open index.html
 ```
 Make sure your browser allows local file access to see external styles and scripts.
