@@ -1,3 +1,10 @@
+<!-- 
+File: stringFun.html
+Description: HTML page more manipulating and performing functions on strings
+Linked JS: jsFiles/stringFun.js, jsFiles/backButton.js
+Notes: Each text box is auto-filled with a string for ease of use but any string can be edited or changed
+-->
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,23 +20,27 @@
             </div>
 
             <form id="form">
+                <!-- Reverse names -->
                 <label class="stringLabel">Full Name:</label>
                 <input id="fullName" name="fullName" value="Thomas Jefferson">
                 <br><button id="stringButton" type="button" onclick="reverseName()">Reverse Name</button>
                 <p id="reversedNames"></p>
 
+                <!-- Get initial of each name -->
                 <br><br>
                 <label class="stringLabel">List of names:</label>
                 <input id="nameList" name="nameList" value="Lisa Alexander, Tony Pat, Ross Smith, Max Blair">
                 <br><button id="stringButton" type="button" onclick="getInitialList()">Get Initials</button>
                 <p id="initialList"></p>
 
+                <!-- Get word count -->
                 <br><br>
                 <label class="stringLabel">Sentence:</label>
                 <input id="sentence" name="sentence" value="Love is patient, love is kind. Love does not delight in evil but rejoices with the truth.">
                 <br><button id="stringButton" type="button" onclick="wordCount()">Get Word Count</button>
                 <p id="countOfWords"></p>
 
+                <!-- Create username -->
                 <br><br>
                 <label class="stringLabel">Full Name:</label>
                 <input id="userFullName" name="userFullName" value="Tony Alexander">
