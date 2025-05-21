@@ -1,3 +1,10 @@
+<!-- 
+File: mathFun.html
+Description: HTML page for performing mathematical operations on a series of numbers
+Linked JS: jsFiles/mathFun.js, jsFiles/backButton.js
+Notes: Enter numbers in dialogue box, enter a letter to terminate dialogue box
+-->
+
 <!DOCTYPE html>
 <html>
 
@@ -12,10 +19,12 @@
                 <button id="backButton">Back</button>
                 <div class="title"><h1>Math Fun!</h1></div>
             </div>
-            
+
+            <!-- Dialogue box to enter numbers -->
             <button type="button" id="tableButton" onclick="askNumbers()">Enter Numbers</button>
             <p id="output"></p>
 
+            <!-- Table outputted after all numbers are entered -->
             <table id="outputTable">
                 <tr>
                     <td>List of Numbers</td>

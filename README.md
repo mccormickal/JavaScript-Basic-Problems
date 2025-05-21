@@ -9,18 +9,18 @@ The goal of this project is to present a collection of JavaScript problem-solvin
 ```
 JavaScript_Basic_Problems/
 ├── htmlFiles/
-│   ├── index.html        # Main index page with links to all problems
-│   ├── mathFun.html        # Problem: basic math operations
-│   ├── stringFun.html        # Problem: string manipulation
-│   ├── Maximum50.html        # Problem: maximum characters for a text box
-│   ├── Maximum50picView.html        # Problem: maximum characters with visual integration
+│   ├── index.html              # Main index page with links to all problems
+│   ├── mathFun.html            # Problem: basic math operations
+│   ├── stringFun.html          # Problem: string manipulation
+│   ├── Maximum50.html          # Problem: maximum characters for a text box
+│   ├── Maximum50picView.html   # Problem: maximum characters with visual integration
 │
-├── jsFiles/
+├── jsFiles/                    # Contains the corresponding JavaScript files for each HTML file
 │
-├── numberImages/      # Contains the photos used in Maximum50picView.html
+├── numberImages/               # Contains the photos used in Maximum50picView.html
 │
-├── styles.css          # Shared CSS for all HTML files
-└── README.md                    # Project overview and documentation
+├── styles.css                  # Shared CSS for all HTML files
+└── README.md                   # Project overview and documentation
 ```
 
 ## Theming & Design
@@ -34,8 +34,8 @@ All pages share a clean, professional design using a common stylesheet (``` styl
 ## How to View
 You can view the project locally:
 ```
-git clone https://github.com/mccormickal/JavaScript_Basic_Problems.git
-cd JavaScript_Basic_Problems/htmlFiles
+git clone https://github.com/mccormickal/JavaScript-Basic-Problems.git
+cd JavaScript-Basic-Problems/htmlFiles
 open index.html
 ```
 Make sure your browser allows local file access to see external styles and scripts.
