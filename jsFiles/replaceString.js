@@ -2,7 +2,7 @@
 function replaceWord() {
     // Capture old word into variable
     var oldWordPatternToReplace = document.getElementById("old-word").value;
-    var R = new RegExp(oldWordPatternToReplace, "g");
+    var R = new RegExp(oldWordPatternToReplace, "gi");
 
     // Capture sentence and replacement word
     var sentence = document.getElementById("sentence").value;
