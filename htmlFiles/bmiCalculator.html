@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>BMI</title>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div class="header">
+                <button id="backButton">Back</button>
+                <div class="title"><h1>Calculate Your BMI (Body Mass Index)</h1></div>
+            </div>
+
+            <form id="form">
+                <label id="genderLabel">Gender: </label>
+                <select id="gender" name="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select><br>
+                <label>Weight (kg): </label><input id="weight" name="weight"><br>
+                <label>Height (cm): </label><input id="height" name="height"><br><br>
+                <button onclick="CalculateBMI()">Calculate BMI</button>
+            </form>
+
+            <p id="output"></p>
+        </div>
+        <script src="../jsFiles/bmiCalculator.js"></script>
+        <script src="../jsFiles/backButton.js"></script>
+    </body>
+</html>
